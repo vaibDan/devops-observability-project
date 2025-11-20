@@ -90,8 +90,9 @@ After logging into Grafana for the first time:
     *   URL: `http://loki:3100`
 3.  Build a dashboard to visualize metrics (e.g., `http_requests_total`) and logs (e.g., `{container="nodejs-app"}`).
 
-## Example Dashboard
 
-*(Placeholder for your screenshot: Once your Grafana dashboard is built, take a screenshot and add it here!)*
+## Live Observability Dashboard
 
-![Grafana Dashboard Screenshot](placeholder.png)
+This dashboard provides a real-time, "single pane of glass" view into the application's health, based on the Four Golden Signals of monitoring. It correlates key performance metrics with structured application logs.
+
+![Live Grafana Dashboard Monitoring Node.js Application](grafana-dashboard.png)
